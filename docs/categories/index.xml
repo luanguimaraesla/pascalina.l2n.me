@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Pascalina</title>
-    <link>https://luaguimaraesla.github.io/pascalina/categories/</link>
+    <link>https://luanguimaraesla.github.io/pascalina/categories/</link>
     <description>Recent content in Categories on Pascalina</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://luaguimaraesla.github.io/pascalina/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://luanguimaraesla.github.io/pascalina/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>https://luaguimaraesla.github.io/pascalina/categories/development/</link>
+      <link>https://luanguimaraesla.github.io/pascalina/categories/development/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://luaguimaraesla.github.io/pascalina/categories/development/</guid>
+      <guid>https://luanguimaraesla.github.io/pascalina/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>https://luaguimaraesla.github.io/pascalina/categories/website/</link>
+      <link>https://luanguimaraesla.github.io/pascalina/categories/website/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://luaguimaraesla.github.io/pascalina/categories/website/</guid>
+      <guid>https://luanguimaraesla.github.io/pascalina/categories/website/</guid>
       <description></description>
     </item>
     

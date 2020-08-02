@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pascalina</title>
-    <link>https://luaguimaraesla.github.io/pascalina/</link>
+    <link>https://luanguimaraesla.github.io/pascalina/</link>
     <description>Recent content on Pascalina</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://luaguimaraesla.github.io/pascalina/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://luanguimaraesla.github.io/pascalina/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Criando um site do zero</title>
-      <link>https://luaguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</link>
+      <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://luaguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</guid>
+      <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</guid>
       <description>Agora vai!</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://luaguimaraesla.github.io/pascalina/sobre/</link>
+      <link>https://luanguimaraesla.github.io/pascalina/sobre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://luaguimaraesla.github.io/pascalina/sobre/</guid>
+      <guid>https://luanguimaraesla.github.io/pascalina/sobre/</guid>
       <description>Pascalina O Pascalina foi uma ideia&amp;hellip; [TODO]</description>
     </item>
     
