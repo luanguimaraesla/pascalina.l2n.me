@@ -1,3 +1,5 @@
+themesDir = "../.."
+
 baseURL = "https://example.com"
 title   = "Hello Friend NG"
 languageCode = "en-us"
