@@ -10,6 +10,19 @@
         <atom:link href="https://luanguimaraesla.github.io/pascalina/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>Contribuindo com projetos abertos</title>
+            <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/contribuindo-com-projetos-abertos/</link>
+            <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/contribuindo-com-projetos-abertos/</guid>
+            <description> Coloque aqui  </description>
+            <content type="html"><![CDATA[<ol>
+<li>Coloque aqui</li>
+</ol>
+]]></content>
+        </item>
+        
+        <item>
             <title>Criando um site do zero</title>
             <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</link>
             <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>

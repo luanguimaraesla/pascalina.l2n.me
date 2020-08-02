@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutoriais on Pascalina</title>
-    <link>https://luanguimaraesla.github.io/pascalina/series/tutoriais/</link>
-    <description>Recent content in Tutoriais on Pascalina</description>
+    <title>opensource on Pascalina</title>
+    <link>https://luanguimaraesla.github.io/pascalina/categories/opensource/</link>
+    <description>Recent content in opensource on Pascalina</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://luanguimaraesla.github.io/pascalina/series/tutoriais/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://luanguimaraesla.github.io/pascalina/categories/opensource/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/contribuindo-com-projetos-abertos/</guid>
       <description> Coloque aqui  </description>
-    </item>
-    
-    <item>
-      <title>Criando um site do zero</title>
-      <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</guid>
-      <description>Agora vai!</description>
     </item>
     
   </channel>
