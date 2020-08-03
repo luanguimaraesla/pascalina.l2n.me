@@ -6,19 +6,65 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>pt-BR</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://luanguimaraesla.github.io/pascalina/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Contribuindo com projetos abertos</title>
-            <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/contribuindo-com-projetos-abertos/</link>
-            <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+            <title>Como contribuir com projetos abertos</title>
+            <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/como-contribuir-com-projetos-abertos/</link>
+            <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
             
-            <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/contribuindo-com-projetos-abertos/</guid>
-            <description> Coloque aqui  </description>
-            <content type="html"><![CDATA[<ol>
-<li>Coloque aqui</li>
+            <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/como-contribuir-com-projetos-abertos/</guid>
+            <description>Para essa receita você vai precisar de: acesso a internet, uma conta no GitHub, ter o Git instalado no seu computador (confere aqui), criatividade para colaborar com projetos e uma pitada de curiosidade.
+Tá a fim de compartilhar conhecimento? Então vem!
+Contribuir com um projeto aberto utilizando as ferramentas que vamos detalhar melhor nesse post, é tipo isso mesmo, uma receitinha de bolo.
+Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos para construção desse site, o Pascalina &amp;lt;3</description>
+            <content type="html"><![CDATA[<p>Para essa receita você vai precisar de: acesso a internet, uma conta no GitHub, ter o Git instalado no seu computador (<a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git">confere aqui</a>), criatividade para colaborar com projetos e uma pitada de curiosidade.</p>
+<p><strong><em>Tá a fim de compartilhar conhecimento? Então vem!</em></strong></p>
+<p><img src="https://media.giphy.com/media/NXp9HM6YeuS0U/giphy.gif" alt="gif"></p>
+<p>Contribuir com um projeto aberto utilizando as ferramentas que vamos detalhar melhor nesse post, é tipo isso mesmo, uma receitinha de bolo.</p>
+<p>Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos para construção desse site, o Pascalina &lt;3</p>
+<ol>
+<li>
+<p>Primeiro, você precisa criar uma conta no GitHub, uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Essa ferramenta possibilita que programadores, utilitários ou qualquer usuário cadastrado contribuam com projetos abertos ou privados de qualquer lugar do mundo (<a href="https://pt.wikipedia.org/wiki/GitHub">1</a>).</p>
+</li>
+<li>
+<p>Depois encontre o diretório do projeto dentro do GitHub. No nosso caso, o diretório do projeto pode ser acessado por esse link: <a href="https://github.com/luanguimaraesla/pascalina">https://github.com/luanguimaraesla/pascalina</a>. Dê uma olhada e veja como é organizado um diretório, o site disponibiliza uma série de ferramentas para trabalharmos.</p>
+</li>
+<li>
+<p>Agora é necessário que você faça um Fork do repositório onde se encontra o projeto do seu interesse. Essa função permite a criação de uma cópia de um repositório, onde é possível experimentar livremente alterações sem afetar o projeto original (<a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo">2</a>).</p>
+<p>Para isso, basta clicar no botão “Fork” localizado no canto superior direito, como mostra a imagem a seguir. Quando o Fork do repositório for concluído, você será redirecionado automaticamente para a cópia do repositório na sua conta do GitHub.</p>
+</li>
 </ol>
+<p><img src="/fork.png" alt="Legenda"></p>
+<ol start="4">
+<li>Agora vamos iniciar o acesso para inserir nossas contribuições. No canto superior direito podemos encontrar o botão “Code”, como mostra a imagem. Ao clicar nele, será exibida uma caixa com um link URL, copie esse link.</li>
+</ol>
+<p><img src="/code.png" alt="Code"></p>
+<ol start="5">
+<li>Abra o terminal do seu computador e altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado. Depois execute o seguinte comando:</li>
+</ol>
+<pre><code>$ git clone [cole o link aqui]
+
+</code></pre><ol start="6">
+<li>
+<p>Pronto! A pasta do repositório agora está salva no seu computador. Abra a mesma no seu editor de código para ter acesso as pastas e códigos do repositório que foi copiado. Lembrando que toda alteração feita nesse projeto não irá afetar o código original.</p>
+<p>No nosso exemplo, estamos contribuindo para a publicação de um post no site Pascalina, mas você pode usar esse tutorial para realizar outros tipos de alterações.</p>
+<p>Provavelmente, no seu editor de código você poderá navegar pelas pastas que estão na raiz do projeto e inserir suas modificações no código. Nesse caso, a criação de posts é feita acessando as pastas: Content &gt; Posts. Dentro da pasta “Post” você criará um documento com a extensão <em>.md</em> e poderá escrever o texto que pretende publicar no site, para isso usamos uma linguagem específica no nosso projeto, chamada <em>Markdown</em>.</p>
+</li>
+</ol>
+<blockquote>
+<p>Markdown é uma linguagem simples de marcação, originalmente criada por John Gruber e Aaron Swartz, ela converte seu texto em HTML válido (<a href="https://pt.wikipedia.org/wiki/Markdown">3</a>).<br>
+Leia um pouco mais sobre como usar essa linguagem no Markdown Guide (<a href="https://www.markdownguide.org/basic-syntax/">4</a>).</p>
+</blockquote>
+<ol start="7">
+<li>[To do]</li>
+</ol>
+<h4 id="referências">Referências</h4>
+<p>(1) GitHub. Disponível em: <a href="https://pt.wikipedia.org/wiki/GitHub">https://pt.wikipedia.org/wiki/GitHub</a><br>
+(2) Fork a repo. Disponível em: <a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo">https://docs.github.com/en/github/getting-started-with-github/fork-a-repo</a><br>
+(3) Markdown. Disponível em: <a href="https://pt.wikipedia.org/wiki/Markdown">https://pt.wikipedia.org/wiki/Markdown</a><br>
+(4) Markdown guide. Disponível em: <a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a></p>
 ]]></content>
         </item>
         
