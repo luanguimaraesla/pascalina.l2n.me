@@ -40,9 +40,9 @@ Depois de instalar o Git no computador (talvez já tenha uma versão instalada, 
 
   > git log (mostra todas edições feitas)
 
-Depois de criada a nossa pasta, escolhemos um tema para a estrutura básica do nosso site. Existem várias maneiras de criar o seu próprio site (ferramentas como Wordpress, Wix), mas como esse é um projeto de programação, optamos por uma ferramenta mais simples que usa a programação na criação de sites.
+Depois de criada a nossa pasta, escolhemos um tema para a estrutura básica do nosso site. Existem várias maneiras de criar o seu próprio site (ferramentas como Wordpress, Wix), mas, como este é um projeto de programação, optamos por uma ferramenta mais simples que usa a programação na criação de sites.
 
-O HUGO <gohugo.io> usa a linguagem de programação Go e tem vários temas ótimos para sites. Por isso também instalamos o hugo para iniciar o nosso site. Como já temos o Homebrew instalado:
+O HUGO <gohugo.io> usa a linguagem de programação Go e tem vários temas ótimos para sites. Por isso também instalamos o HUGO para iniciar o nosso site. Como já temos o Homebrew instalado:
 
   > brew install hugo
 
@@ -69,7 +69,7 @@ Depois, nós salvamos tudo de novo com Git. Mas para não correr o risco de perd
 Depois de criar e configurar a nossa conta, basta criar um repositório do GitHub para armazenarmos os dados, criamos um repositório também chamado pascalina! Para inserir as informações do nosso computador no GitHub é muito simples: 
 
   > git remote add origin <link_do_repositorio_no_GitHub>
-  
+
   > git push origin master
 
 Nós sempre salvamos as nossas alterações no GItHub. Em outro post nós explicamos como contribuímos em projetos no GitHub e a construção deste site foi nosso primeiro projeto colaborativo! 
