@@ -15,15 +15,18 @@
             <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
             
             <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/como-contribuir-com-projetos-abertos/</guid>
-            <description>Para essa receita você vai precisar de: acesso a internet, uma conta no GitHub, ter o Git instalado no seu computador (confere aqui), criatividade para colaborar com projetos e uma pitada de curiosidade.
+            <description>Para essa receita você vai precisar de: acesso à internet, uma conta no GitHub, ter o Git instalado no seu computador (saiba mais aqui), criatividade para colaborar com projetos e uma pitada de curiosidade.
 Tá a fim de compartilhar conhecimento? Então vem!
 Contribuir com um projeto aberto utilizando as ferramentas que vamos detalhar melhor nesse post, é tipo isso mesmo, uma receitinha de bolo.
 Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos para construção desse site, o Pascalina &amp;lt;3</description>
-            <content type="html"><![CDATA[<p>Para essa receita você vai precisar de: acesso a internet, uma conta no GitHub, ter o Git instalado no seu computador (<a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git">confere aqui</a>), criatividade para colaborar com projetos e uma pitada de curiosidade.</p>
+            <content type="html"><![CDATA[<p>Para essa receita você vai precisar de: acesso à internet, uma conta no GitHub, ter o Git instalado no seu computador (<a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git">saiba mais aqui</a>), criatividade para colaborar com projetos e uma pitada de curiosidade.</p>
 <p><strong><em>Tá a fim de compartilhar conhecimento? Então vem!</em></strong></p>
 <p><img src="https://media.giphy.com/media/NXp9HM6YeuS0U/giphy.gif" alt="gif"></p>
 <p>Contribuir com um projeto aberto utilizando as ferramentas que vamos detalhar melhor nesse post, é tipo isso mesmo, uma receitinha de bolo.</p>
 <p>Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos para construção desse site, o Pascalina &lt;3</p>
+<blockquote>
+<p>Vale lembrar que o nosso site foi feito utilizando o Hugo, que é um gerador de sites estáticos, desenvolvido em Golang. É uma aplicação que auxilia o usuário a gerenciar, publicar e divulgar o seu conteúdo de uma maneira mais rápida e prática. Leia mais sobre o Hugo e a sua instalação <a href="https://gohugo.io/about/">(aqui</a>).</p>
+</blockquote>
 <ol>
 <li>
 <p>Primeiro, você precisa criar uma conta no GitHub, uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Essa ferramenta possibilita que programadores, utilitários ou qualquer usuário cadastrado contribuam com projetos abertos ou privados de qualquer lugar do mundo (<a href="https://pt.wikipedia.org/wiki/GitHub">1</a>).</p>
@@ -33,10 +36,10 @@ Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos p
 </li>
 <li>
 <p>Agora é necessário que você faça um Fork do repositório onde se encontra o projeto do seu interesse. Essa função permite a criação de uma cópia de um repositório, onde é possível experimentar livremente alterações sem afetar o projeto original (<a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo">2</a>).</p>
-<p>Para isso, basta clicar no botão “Fork” localizado no canto superior direito, como mostra a imagem a seguir. Quando o Fork do repositório for concluído, você será redirecionado automaticamente para a cópia do repositório na sua conta do GitHub.</p>
 </li>
 </ol>
-<p><img src="/fork.png" alt="Legenda"></p>
+<p>Para isso, basta clicar no botão “Fork” localizado no canto superior direito, como mostra a imagem a seguir. Quando o Fork do repositório for concluído, você será redirecionado automaticamente para a cópia do repositório na sua conta do GitHub.</p>
+<p><img src="/fork.png" alt="Fork"></p>
 <ol start="4">
 <li>Agora vamos iniciar o acesso para inserir nossas contribuições. No canto superior direito podemos encontrar o botão “Code”, como mostra a imagem. Ao clicar nele, será exibida uma caixa com um link URL, copie esse link.</li>
 </ol>
@@ -47,24 +50,49 @@ Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos p
 <pre><code>$ git clone [cole o link aqui]
 
 </code></pre><ol start="6">
-<li>
-<p>Pronto! A pasta do repositório agora está salva no seu computador. Abra a mesma no seu editor de código para ter acesso as pastas e códigos do repositório que foi copiado. Lembrando que toda alteração feita nesse projeto não irá afetar o código original.</p>
+<li>Pronto! A pasta do repositório agora está salva no seu computador. Abra a mesma no seu editor de código para ter acesso as pastas e códigos do repositório que foi copiado. Lembrando que toda alteração feita nesse projeto não irá afetar o código original.</li>
+</ol>
 <p>No nosso exemplo, estamos contribuindo para a publicação de um post no site Pascalina, mas você pode usar esse tutorial para realizar outros tipos de alterações.</p>
 <p>Provavelmente, no seu editor de código você poderá navegar pelas pastas que estão na raiz do projeto e inserir suas modificações no código. Nesse caso, a criação de posts é feita acessando as pastas: Content &gt; Posts. Dentro da pasta “Post” você criará um documento com a extensão <em>.md</em> e poderá escrever o texto que pretende publicar no site, para isso usamos uma linguagem específica no nosso projeto, chamada <em>Markdown</em>.</p>
-</li>
-</ol>
 <blockquote>
 <p>Markdown é uma linguagem simples de marcação, originalmente criada por John Gruber e Aaron Swartz, ela converte seu texto em HTML válido (<a href="https://pt.wikipedia.org/wiki/Markdown">3</a>).<br>
 Leia um pouco mais sobre como usar essa linguagem no Markdown Guide (<a href="https://www.markdownguide.org/basic-syntax/">4</a>).</p>
 </blockquote>
 <ol start="7">
-<li>[To do]</li>
+<li>Quando você encerrar e salvar todas as contribuições que desejava fazer no código do projeto, é necessário enviá-las para o GitHub para que de fato elas sejam implementadas e a contribuição seja feita. Esse processo é realizado por meio do Git, precisaremos rodar alguns comandos no nosso terminal (certifique-se que o diretório atual seja o do projeto).</li>
 </ol>
+<p>O primeiro comando dessa etapa é o hugo, ele gera seu site no diretório público e assim está tudo pronto para ser implantado no seu servidor da web (<a href="https://gohugo.io/getting-started/usage/">5</a>).</p>
+<pre><code>$ hugo
+</code></pre><p>Em seguida, podemos observar todas as mudanças feitas e arquivos criados, com o comando:</p>
+<pre><code>$ git status
+</code></pre><p>O resultado desse comando é uma série de mudanças implementadas por nós e pelo Hugo automaticamente. Para adicionar todas essas mudanças na área de <em>stage</em>, usamos o comando:</p>
+<pre><code>$ git add -A
+</code></pre><p>Agora vamos salvar essas mudanças com o comando:</p>
+<pre><code>$ git commit -m “adding a new post - how to contribute to open source projects”
+</code></pre><p>Entre as aspas você pode inserir qualquer comentário que te ajude a identificar esse commit caso seja necessário.</p>
+<p>E para passar todas essas mudanças do repositório local, ou seja, do seu computador para o repositório remoto que é o GitHub, usamos o comando:</p>
+<pre><code>$ git push origin master
+</code></pre><p>Assim, todas as mudanças que você realizou no projeto estão agora salvas no GitHub.</p>
+<ol start="8">
+<li>Para que as contribuições sejam aceitas pelo autor do projeto o qual você está sugerindo mudanças, é preciso fazer um pedido para que ele as aceite. Esse pedido é feito por meio do <em>pull request</em>, para acessar essa função devemos voltar ao repositório origem do projeto e clicar na aba “Pull requists”, como mostra a imagem.</li>
+</ol>
+<p><img src="/pull_requests.png" alt=""></p>
+<p>Dentro dessa aba você irá clicar no botão “New pull requist”.</p>
+<p><img src="/new_pull_request.png" alt=""></p>
+<p>E então irá aparecer a página de Compare changes, uma forma do GitHub certificar que a inserção das suas mudanças não irão danificar o código origem. Para fazer a comparação entre seu código e o código origem clique na opção “compare across forks” e mude o “head repository” para o seu repositório, essa opção vai estar disponível na lista quanto clicar no botão dessa ferramenta. Se tudo estiver ok, vai aparacer a seguinte mensagem “Able to merge” e assim você poderá clicar no botão “Create pull request”. Esse passo pode ser observado na imagem abaixo:</p>
+<p><img src="/compare.png" alt=""></p>
+<ol start="9">
+<li>Em seguida irá aparecer a página de Open a pull request, onde você pode enviar uma mensagem junto com as modificações explicando para o autor do projeto o objetivo e os detalhes da sua colaboração. Por fim, clique no botão “Create pull request”</li>
+</ol>
+<p><img src="/create.png" alt=""></p>
+<p><strong>E pronto!</strong> Sua colaboração foi enviada e estará disponível para o autor conferir e decidir se irá aceitá-la.</p>
+<p><em>Agora, sabendo como enviar sua colaboração para um projeto open source, fique a vontade para colaborar com o Pascalina!</em></p>
 <h4 id="referências">Referências</h4>
 <p>(1) GitHub. Disponível em: <a href="https://pt.wikipedia.org/wiki/GitHub">https://pt.wikipedia.org/wiki/GitHub</a><br>
 (2) Fork a repo. Disponível em: <a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo">https://docs.github.com/en/github/getting-started-with-github/fork-a-repo</a><br>
 (3) Markdown. Disponível em: <a href="https://pt.wikipedia.org/wiki/Markdown">https://pt.wikipedia.org/wiki/Markdown</a><br>
-(4) Markdown guide. Disponível em: <a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a></p>
+(4) Markdown guide. Disponível em: <a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a><br>
+(5) Basic Usage – Hugo. Disponível em: <a href="https://gohugo.io/getting-started/usage/">https://gohugo.io/getting-started/usage/</a></p>
 ]]></content>
         </item>
         
