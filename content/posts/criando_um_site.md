@@ -43,10 +43,10 @@ Depois de instalar o Git no computador (talvez já tenha uma versão instalada, 
   # ao próximo commit
   git add -A 
   
-  # criamos um commit com as alterações. esse passo é  
-  # muito importante para lembrarmos o que
-  # significa cada alteração que fizemos em cada versão.
-  # Lembre de usar mensagens significativas
+  # criamos um commit com as alterações. esse passo  
+  # é muito importante para lembrarmos o que
+  # significa cada alteração que fizemos em
+  # cada versão. use mensagens significativas.
   git commit -m "mensagem de identificação" 
   
   # vemos todas edições feitas com este comando
@@ -55,7 +55,7 @@ Depois de instalar o Git no computador (talvez já tenha uma versão instalada, 
 
 Depois de criada a nossa pasta, escolhemos um tema para a estrutura básica do nosso site. Existem várias maneiras de criar o seu próprio site (ferramentas como Wordpress, Wix), mas, como este é um projeto de programação, optamos por uma ferramenta mais simples que usa a programação na criação de sites.
 
-O [HUGO] (https://gohugo.io) é uma ferramenta desenvolvida em Golang que possibilita a criação de sites estáticos de uma maneira fácil e intuitiva. Por isso também instalamos o HUGO para iniciar o nosso site. Como já temos o Homebrew instalado:
+O [HUGO](https://gohugo.io) é uma ferramenta desenvolvida em Golang que possibilita a criação de sites estáticos de uma maneira fácil e intuitiva. Por isso também instalamos o HUGO para iniciar o nosso site. Como já temos o Homebrew instalado:
 
 ```bash
   brew install hugo
