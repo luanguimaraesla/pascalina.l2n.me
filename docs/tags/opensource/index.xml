@@ -7,18 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://luanguimaraesla.github.io/pascalina/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Contribuindo com projetos abertos</title>
-      <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/contribuindo-com-projetos-abertos/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <title>Como contribuir com projetos abertos</title>
+      <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/como-contribuir-com-projetos-abertos/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/contribuindo-com-projetos-abertos/</guid>
-      <description> Coloque aqui  </description>
+      <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/como-contribuir-com-projetos-abertos/</guid>
+      <description>Para essa receita você vai precisar de: acesso à internet, uma conta no GitHub, ter o Git instalado no seu computador (saiba mais aqui), criatividade para colaborar com projetos e uma pitada de curiosidade.
+Tá a fim de compartilhar conhecimento? Então vem!
+Contribuir com um projeto aberto utilizando as ferramentas que vamos detalhar melhor nesse post, é tipo isso mesmo, uma receitinha de bolo.
+Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos para construção desse site, o Pascalina &amp;lt;3</description>
     </item>
     
   </channel>
