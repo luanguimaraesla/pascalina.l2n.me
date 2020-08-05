@@ -5,8 +5,7 @@ type = ["posts","post"]
 tags = [
     "golang",
     "hugo",
-    "site",
-    "criar"
+    "site"
 ]
 
 date = "2020-08-02"
@@ -55,19 +54,19 @@ Depois de instalar o Git no computador (talvez já tenha uma versão instalada, 
 
 Depois de criada a nossa pasta, escolhemos um tema para a estrutura básica do nosso site. Existem várias maneiras de criar o seu próprio site (ferramentas como Wordpress, Wix), mas, como este é um projeto de programação, optamos por uma ferramenta mais simples que usa a programação na criação de sites.
 
-O [HUGO](https://gohugo.io) é uma ferramenta desenvolvida em Golang que possibilita a criação de sites estáticos de uma maneira fácil e intuitiva. Por isso também instalamos o HUGO para iniciar o nosso site. Como já temos o Homebrew instalado:
+O [Hugo](https://gohugo.io) é uma ferramenta desenvolvida em Golang que possibilita a criação de sites estáticos de uma maneira fácil e intuitiva. Por isso também instalamos o Hugo para iniciar o nosso site. Como já temos o Homebrew instalado:
 
 ```bash
   brew install hugo
 ```
 
-Depois de instalado, nós selecionamos um tema que representasse bem a nós 7 e ao nosso projeto e pedimos para o HUGO criar nosso site (; - dentro da pasta do nosso projeto!:
+Depois de instalado, nós selecionamos um tema que representasse bem a nós 7 e ao nosso projeto e pedimos para o Hugo criar nosso site (; - dentro da pasta do nosso projeto!:
 
 ```bash
   hugo new site pascalina
 ```
  
-Com isso o HUGO cria uma nova pasta com as informações do nosso site. Nessa pasta nós inserimos o código do tema que selecionamos anteriormente:
+Com isso o Hugo cria uma nova pasta com as informações do nosso site. Nessa pasta nós inserimos o código do tema que selecionamos anteriormente:
 
 ```bash
   git clone <link_do_hugo_com_o_codigo_do_tema_escolhido>
@@ -79,7 +78,7 @@ Esses dados são super importantes, então já salvamos tudo com o Git, seguindo
   code .
 ```
 
-Copiamos a estrutura básica, que já vem com o código do tema que selecionamos no HUGO (geralmente essa informação vem em uma pasta chamada `exampleSite`), e o inserimos no arquivo `config.toml`, que já está também na pasta com as informações do nosso site. 
+Copiamos a estrutura básica, que já vem com o código do tema que selecionamos no Hugo (geralmente essa informação vem em uma pasta chamada `exampleSite`), e o inserimos no arquivo `config.toml`, que já está também na pasta com as informações do nosso site. 
 
 A partir daí fizemos as alterações e personalizamos o nosso site como preferimos! Para executarmos o site e vermos como estava ficando usamos: 
 
@@ -97,4 +96,4 @@ Depois de criar e configurar a nossa conta, basta criar um repositório do GitHu
   git push origin master
 ```
 
-Nós sempre salvamos as nossas alterações no GItHub. Em outro post nós explicamos como contribuímos em projetos no GitHub e a construção deste site foi nosso primeiro projeto colaborativo! 
+Nós sempre salvamos as nossas alterações no GitHub. Em outro post nós explicamos como contribuímos em projetos no GitHub e a construção deste site foi nosso primeiro projeto colaborativo! 
