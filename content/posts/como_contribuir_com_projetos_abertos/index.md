@@ -120,11 +120,11 @@ Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos p
 
 9. Em seguida irá aparecer a página de Open a pull request, onde você pode enviar uma mensagem junto com as modificações explicando para o autor do projeto o objetivo e os detalhes da sua colaboração. Por fim, clique no botão “Create pull request”
 
-        ![](images/create.png)
+      ![](images/create.png)
 
-        **E pronto!** Sua colaboração foi enviada e estará disponível para o autor conferir e decidir se irá aceitá-la.
+      **E pronto!** Sua colaboração foi enviada e estará disponível para o autor conferir e decidir se irá aceitá-la.
 
-        _Agora, sabendo como enviar sua colaboração para um projeto open source, fique a vontade para colaborar com o Pascalina!_
+      _Agora, sabendo como enviar sua colaboração para um projeto open source, fique a vontade para colaborar com o Pascalina!_
 
 [^1]: GitHub. <https://pt.wikipedia.org/wiki/GitHub>
 [^2]: Fork a repo. <https://docs.github.com/en/github/getting-started-with-github/fork-a-repo>
