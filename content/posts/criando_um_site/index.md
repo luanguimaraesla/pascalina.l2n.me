@@ -12,14 +12,14 @@ tags = [
 date = "2020-08-02"
 
 categories = [
-    "Development",
+    "development",
     "website",
 ]
 
 series = ["Tutoriais"]
 
 [ author ]
-  name = "Pascalina"
+  name = "Mariana Fonseca"
 +++
 
 Nós decidimos começar este site para podermos compartilhar coisas interessantes que lemos, estudamos, os desafios que temos encontrado. Além disso, também pensamos em um espaço para comentarmos sobre documentários, filmes, livros, personalidades que nos inspiram nesse projeto. 

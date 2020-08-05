@@ -27,10 +27,12 @@ Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos p
     <item>
       <title>Criando um site do zero</title>
       <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</guid>
-      <description>Agora vai!</description>
+      <description>Nós decidimos começar este site para podermos compartilhar coisas interessantes que lemos, estudamos, os desafios que temos encontrado. Além disso, também pensamos em um espaço para comentarmos sobre documentários, filmes, livros, personalidades que nos inspiram nesse projeto.
+Para isso, nos propusemos a aprender como fazer o nosso próprio site! Vamos colocar aqui um passo-a-passo de como fizemos.
+Primeiramente, instalamos e iniciamos o Git nos nossos computadores. O Git é um gerenciador de versões, muito útil para controlarmos melhor as alterações que fazemos em documentos e repositórios.</description>
     </item>
     
   </channel>
