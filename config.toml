@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "A melhor aula de programação de Ubatuba"
+  homeSubtitle = "A melhor aula de programação de Brasília"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
