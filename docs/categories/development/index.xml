@@ -23,5 +23,14 @@ Para isso, nos propusemos a aprender como fazer o nosso próprio site! Vamos col
 Primeiramente, instalamos e iniciamos o Git nos nossos computadores. O Git é um gerenciador de versões, muito útil para controlarmos melhor as alterações que fazemos em documentos e repositórios.</description>
     </item>
     
+    <item>
+      <title>Test</title>
+      <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/test/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/test/</guid>
+      <description>Test</description>
+    </item>
+    
   </channel>
 </rss>

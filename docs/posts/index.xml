@@ -175,5 +175,16 @@ Primeiramente, instalamos e iniciamos o Git nos nossos computadores. O Git é um
 ]]></content>
         </item>
         
+        <item>
+            <title>Test</title>
+            <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/test/</link>
+            <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/test/</guid>
+            <description>Test</description>
+            <content type="html"><![CDATA[<p>Test</p>
+]]></content>
+        </item>
+        
     </channel>
 </rss>
