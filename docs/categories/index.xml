@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://luanguimaraesla.github.io/pascalina/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,34 +15,34 @@
     <item>
       <title>contribution</title>
       <link>https://luanguimaraesla.github.io/pascalina/categories/contribution/</link>
-      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://luanguimaraesla.github.io/pascalina/categories/contribution/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>opensource</title>
-      <link>https://luanguimaraesla.github.io/pascalina/categories/opensource/</link>
-      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://luanguimaraesla.github.io/pascalina/categories/opensource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>development</title>
+      <title>Development</title>
       <link>https://luanguimaraesla.github.io/pascalina/categories/development/</link>
-      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://luanguimaraesla.github.io/pascalina/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>opensource</title>
+      <link>https://luanguimaraesla.github.io/pascalina/categories/opensource/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://luanguimaraesla.github.io/pascalina/categories/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>website</title>
       <link>https://luanguimaraesla.github.io/pascalina/categories/website/</link>
-      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://luanguimaraesla.github.io/pascalina/categories/website/</guid>
       <description></description>
