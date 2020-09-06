@@ -2,22 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pascalina</title>
-    <link>https://luanguimaraesla.github.io/pascalina/</link>
+    <link>https://pascalina.l2n.me/</link>
     <description>Recent content on Pascalina</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://luanguimaraesla.github.io/pascalina/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pascalina.l2n.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Criadora do SciHub</title>
+      <link>https://pascalina.l2n.me/posts/2020/08/criadora-do-scihub/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalina.l2n.me/posts/2020/08/criadora-do-scihub/</guid>
+      <description>[TO DO]</description>
+    </item>
+    
+    <item>
+      <title>Criando novas branches</title>
+      <link>https://pascalina.l2n.me/posts/2020/08/criando-novas-branches/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalina.l2n.me/posts/2020/08/criando-novas-branches/</guid>
+      <description>Branch x Master x Branch Master O que significa branch? O que é uma branch master? Qual a diferença entre trabalhar com uma branch ou com a master?
+[TODO]</description>
+    </item>
+    
+    <item>
       <title>Como contribuir com projetos abertos</title>
-      <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/como-contribuir-com-projetos-abertos/</link>
+      <link>https://pascalina.l2n.me/posts/2020/08/como-contribuir-com-projetos-abertos/</link>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/como-contribuir-com-projetos-abertos/</guid>
+      <guid>https://pascalina.l2n.me/posts/2020/08/como-contribuir-com-projetos-abertos/</guid>
       <description>Para essa receita você vai precisar de: acesso à internet, uma conta no GitHub, ter o Git instalado no seu computador (saiba mais aqui), criatividade para colaborar com projetos e uma pitada de curiosidade.
 Tá a fim de compartilhar conhecimento? Então vem!
   Contribuir com um projeto aberto utilizando as ferramentas que vamos detalhar melhor nesse post, é tipo isso mesmo, uma receitinha de bolo.
@@ -26,21 +45,30 @@ Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos p
     
     <item>
       <title>Criando um site do zero</title>
-      <link>https://luanguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</link>
+      <link>https://pascalina.l2n.me/posts/2020/08/criando-um-site-do-zero/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://luanguimaraesla.github.io/pascalina/posts/2020/08/criando-um-site-do-zero/</guid>
+      <guid>https://pascalina.l2n.me/posts/2020/08/criando-um-site-do-zero/</guid>
       <description>Nós decidimos começar este site para podermos compartilhar coisas interessantes que lemos, estudamos, os desafios que temos encontrado. Além disso, também pensamos em um espaço para comentarmos sobre documentários, filmes, livros, personalidades que nos inspiram nesse projeto.
 Para isso, nos propusemos a aprender como fazer o nosso próprio site! Vamos colocar aqui um passo-a-passo de como fizemos.
 Primeiramente, instalamos e iniciamos o Git nos nossos computadores. O Git é um gerenciador de versões, muito útil para controlarmos melhor as alterações que fazemos em documentos e repositórios.</description>
     </item>
     
     <item>
+      <title>Como usar o URI</title>
+      <link>https://pascalina.l2n.me/posts/2020/08/como-usar-o-uri/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalina.l2n.me/posts/2020/08/como-usar-o-uri/</guid>
+      <description>Nesse post a gente vai falar sobre o URI.</description>
+    </item>
+    
+    <item>
       <title></title>
-      <link>https://luanguimaraesla.github.io/pascalina/sobre/</link>
+      <link>https://pascalina.l2n.me/sobre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://luanguimaraesla.github.io/pascalina/sobre/</guid>
+      <guid>https://pascalina.l2n.me/sobre/</guid>
       <description>Pascalina Você deve estar se perguntando o que diabos é Pascalina, bom&amp;hellip; O nome se refere à calculadora mecânica de Blaise Pascal, que disputa com William Schickard o título de inventor da primeira calculadora mecânica do mundo. Em homenagem a essa honrosa invenção, nomeamos este projeto em construção que descreveremos com mais detalhes a seguir.
 Pascalina surgiu a partir de conversas entre dois amigos, um engenheiro de software e uma cientista política, um tanto inquietos e curiosos.</description>
     </item>
