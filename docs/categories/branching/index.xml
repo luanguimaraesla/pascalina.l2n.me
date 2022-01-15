@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>branching on Pascalina</title>
+    <link>https://pascalina.l2n.me/categories/branching/</link>
+    <description>Recent content in branching on Pascalina</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalina.l2n.me/categories/branching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O que são branches e como elas funcionam</title>
+      <link>https://pascalina.l2n.me/posts/2020/08/o-que-s%C3%A3o-branches-e-como-elas-funcionam/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalina.l2n.me/posts/2020/08/o-que-s%C3%A3o-branches-e-como-elas-funcionam/</guid>
+      <description>Branches: navegando entre diferentes ramos de trabalho Que bom te ver por aqui! Até este momento aprendemos sobre como contribuir para projetos abertos utilizando o git por meio da branch master. Ok, mas o que é branch master? Explicamos.
+Branch significa ramo de trabalho e a branch master é o ramo principal. No post Como contribuir com projetos abertos aprendemos a fazer um fork de um projeto para o nosso repositório do GitHub e depois a cloná-lo (do repositório) para um diretório local da nossa máquina.</description>
+    </item>
+    
+  </channel>
+</rss>

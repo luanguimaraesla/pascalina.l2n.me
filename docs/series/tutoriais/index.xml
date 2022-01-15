@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutoriais on Pascalina</title>
+    <link>https://pascalina.l2n.me/series/tutoriais/</link>
+    <description>Recent content in Tutoriais on Pascalina</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalina.l2n.me/series/tutoriais/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O que são branches e como elas funcionam</title>
+      <link>https://pascalina.l2n.me/posts/2020/08/o-que-s%C3%A3o-branches-e-como-elas-funcionam/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalina.l2n.me/posts/2020/08/o-que-s%C3%A3o-branches-e-como-elas-funcionam/</guid>
+      <description>Branches: navegando entre diferentes ramos de trabalho Que bom te ver por aqui! Até este momento aprendemos sobre como contribuir para projetos abertos utilizando o git por meio da branch master. Ok, mas o que é branch master? Explicamos.
+Branch significa ramo de trabalho e a branch master é o ramo principal. No post Como contribuir com projetos abertos aprendemos a fazer um fork de um projeto para o nosso repositório do GitHub e depois a cloná-lo (do repositório) para um diretório local da nossa máquina.</description>
+    </item>
+    
+    <item>
+      <title>Criadora do SciHub</title>
+      <link>https://pascalina.l2n.me/posts/2020/08/criadora-do-scihub/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalina.l2n.me/posts/2020/08/criadora-do-scihub/</guid>
+      <description>[TO DO]</description>
+    </item>
+    
+    <item>
+      <title>Como contribuir com projetos abertos</title>
+      <link>https://pascalina.l2n.me/posts/2020/08/como-contribuir-com-projetos-abertos/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalina.l2n.me/posts/2020/08/como-contribuir-com-projetos-abertos/</guid>
+      <description>Para essa receita você vai precisar de: acesso à internet, uma conta no GitHub, ter o Git instalado no seu computador (saiba mais aqui), criatividade para colaborar com projetos e uma pitada de curiosidade.
+Tá a fim de compartilhar conhecimento? Então vem!
+ Contribuir com um projeto aberto utilizando as ferramentas que vamos detalhar melhor nesse post, é tipo isso mesmo, uma receitinha de bolo.
+Vamos adotar como exemplo para essa explicação, a forma como nos colaboramos para construção desse site, o Pascalina &amp;lt;3</description>
+    </item>
+    
+    <item>
+      <title>Criando um site do zero</title>
+      <link>https://pascalina.l2n.me/posts/2020/08/criando-um-site-do-zero/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalina.l2n.me/posts/2020/08/criando-um-site-do-zero/</guid>
+      <description>Nós decidimos começar este site para podermos compartilhar coisas interessantes que lemos, estudamos, os desafios que temos encontrado. Além disso, também pensamos em um espaço para comentarmos sobre documentários, filmes, livros, personalidades que nos inspiram nesse projeto.
+Para isso, nos propusemos a aprender como fazer o nosso próprio site! Vamos colocar aqui um passo-a-passo de como fizemos.
+Primeiramente, instalamos e iniciamos o Git nos nossos computadores. O Git é um gerenciador de versões, muito útil para controlarmos melhor as alterações que fazemos em documentos e repositórios.</description>
+    </item>
+    
+    <item>
+      <title>Como usar o URI</title>
+      <link>https://pascalina.l2n.me/posts/2020/08/como-usar-o-uri/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalina.l2n.me/posts/2020/08/como-usar-o-uri/</guid>
+      <description>Nesse post a gente vai falar sobre o URI.</description>
+    </item>
+    
+  </channel>
+</rss>

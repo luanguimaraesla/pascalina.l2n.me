@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Beatriz Franco]">
+<meta name="description" content="Branches: navegando entre diferentes ramos de trabalho Que bom te ver por aqui! Até este momento aprendemos sobre como contribuir para projetos abertos utilizando o git por meio da branch master. Ok, mas o que é branch master? Explicamos.
+Branch significa ramo de trabalho e a branch master é o ramo principal. No post Como contribuir com projetos abertos aprendemos a fazer um fork de um projeto para o nosso repositório do GitHub e depois a cloná-lo (do repositório) para um diretório local da nossa máquina." />
+<meta name="keywords" content=", branches, github, branching" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://pascalina.l2n.me/posts/2020/08/o-que-s%C3%A3o-branches-e-como-elas-funcionam/" />
+
+
+    <title>
+        
+            O que são branches e como elas funcionam :: Pascalina  — Hello Friend NG Theme
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://pascalina.l2n.me/main.d1ea4af8fd04fb24a4f8b882ea54bd04eb245427ca4baf527c81a5dab071410b.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://pascalina.l2n.me/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://pascalina.l2n.me/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://pascalina.l2n.me/favicon-16x16.png">
+    <link rel="manifest" href="https://pascalina.l2n.me/site.webmanifest">
+    <link rel="mask-icon" href="https://pascalina.l2n.me/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://pascalina.l2n.me/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="O que são branches e como elas funcionam">
+<meta itemprop="description" content="Tutorial para entender o que são branches e como elas funcionam"><meta itemprop="datePublished" content="2020-08-21T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-08-21T00:00:00+00:00" />
+<meta itemprop="wordCount" content="819"><meta itemprop="image" content="https://pascalina.l2n.me"/>
+<meta itemprop="keywords" content="branches,github,branching," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://pascalina.l2n.me"/>
+
+<meta name="twitter:title" content="O que são branches e como elas funcionam"/>
+<meta name="twitter:description" content="Tutorial para entender o que são branches e como elas funcionam"/>
+
+
+
+    <meta property="og:title" content="O que são branches e como elas funcionam" />
+<meta property="og:description" content="Tutorial para entender o que são branches e como elas funcionam" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pascalina.l2n.me/posts/2020/08/o-que-s%C3%A3o-branches-e-como-elas-funcionam/" /><meta property="og:image" content="https://pascalina.l2n.me"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-08-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-21T00:00:00+00:00" />
+<meta property="og:see_also" content="https://pascalina.l2n.me/posts/2020/08/criadora-do-scihub/" /><meta property="og:see_also" content="https://pascalina.l2n.me/posts/2020/08/como-contribuir-com-projetos-abertos/" /><meta property="og:see_also" content="https://pascalina.l2n.me/posts/2020/08/criando-um-site-do-zero/" /><meta property="og:see_also" content="https://pascalina.l2n.me/posts/2020/08/como-usar-o-uri/" />
+
+
+
+
+
+    <meta property="article:section" content="branching" />
+
+    <meta property="article:section" content="workflow" />
+
+
+
+    <meta property="article:published_time" content="2020-08-21 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://pascalina.l2n.me/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://pascalina.l2n.me/posts/">Posts</a></li><li><a href="https://pascalina.l2n.me/sobre/">Sobre</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        4 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://pascalina.l2n.me/posts/2020/08/o-que-s%C3%A3o-branches-e-como-elas-funcionam/">O que são branches e como elas funcionam</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <h2 id="branches-navegando-entre-diferentes-ramos-de-trabalho">Branches: navegando entre diferentes ramos de trabalho</h2>
+<p>Que bom te ver por aqui! Até este momento aprendemos sobre como contribuir para projetos abertos utilizando o git por meio da branch master. Ok, mas o que é branch master? Explicamos.</p>
+<p>Branch significa ramo de trabalho e a branch master é o ramo principal. No post <a href="https://pascalina.l2n.me/posts/2020/08/como-contribuir-com-projetos-abertos/"><em>Como contribuir com projetos abertos</em></a> aprendemos a fazer um fork de um projeto para o nosso repositório do GitHub e depois a cloná-lo (do repositório) para um diretório local da nossa máquina. Uma vez clonado o projeto, podemos incluir alterações sem interferir no código original (aquele que está no repositório em que fizemos o fork).</p>
+<p>Em um primeiro contato com o git, nossas primeiras contribuições foram feitas no ramo principal, na branch master do repositório local. No entanto, quando trabalhamos em um projeto, geralmente atuamos em diferentes partes. Submeter um <em>pull request</em> com alterações diversas não é recomendado. Além disso, nosso ramo principal de trabalho precisa se manter coerente e estável. Por isso, chegou a hora de aprender a usar outras branches além da master.</p>
+<p>Pode soar complexo, mas a verdade é que fazer operações em branches separadas nos ajuda a melhor organizar o fluxo de trabalho. Para cada alteração desejada é recomendado criar uma nova branch.</p>
+<p>A título de exemplo, vamos supor que queremos criar um novo post no site do Pascalina sobre um tema qualquer, qual seja, &ldquo;como usar o GitHub&rdquo;. Vamos fazer isso pasito a pasito logo abaixo:</p>
+<ol>
+<li>No seu terminal, certifique-se de que você está no diretório do seu projeto usando o comando <code>pwd</code>.</li>
+</ol>
+<p>Para verificar quantos ramos de trabalho existem e em qual você está basta digitar:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git branch -a
+</code></pre></div><p>Se você ainda não criou nenhuma branch, você só terá a branch master, como mostrado abaixo:</p>
+<p><img src="images/git_branch.png" alt="Lista de branches"></p>
+<ol start="2">
+<li>Para criar uma nova branch, digite:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git branch nome_da_branch
+</code></pre></div><p>O ideal é que você nomeie a branch de forma que remeta à ação que está sendo realizada. Considerando o exemplo proposto aqui do nosso novo post sobre &ldquo;como usar o GitHub&rdquo;, poderíamos nomear a branch de tutorial_github.</p>
+<p>Para listar as branches disponíveis, utilizaremos mais uma vez o comando <code>git branch -a</code>. Aqui o &ldquo;-a&rdquo; significa &ldquo;all&rdquo;. O que você está dizendo então é: git me mostre todas as branches disponíveis.</p>
+<p>Além de visualizar todas as branches, o terminal indica a branch na qual você se encontra sinalizando-a em verde e com um asterisco ao lado, como no print abaixo:</p>
+<p><img src="images/git_new_branch.png" alt="Criando e listando branches"></p>
+<p>Apesar de criar uma nova branch, como você pode ver, ainda estamos na branch master. Para entrar na nova branch:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git checkout nome_da_branch
+</code></pre></div><p>Quando criamos uma branch, o que acontece é que uma cópia do projeto é criada nesse novo ramo de trabalho, levando em consideração o último commit feito na branch anterior (onde você estava quando usou o comando <code>git branch nome_da_branch</code>). Suas alterações subsequentes ficarão armazenadas somente na branch em que você está trabalhando.</p>
+<p><img src="images/git_switch_branch.png" alt="Trocando de branch"></p>
+<p>No caso da imagem acima, trocamos para o ramo new_branch onde iremos então escrever o novo post.</p>
+<ol start="3">
+<li>Tendo finalizado o trabalho, você deve subir a branch recém-criada para o seu repositório remoto no GitHub, apelidado convencionalmente de <em>origin</em>:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git push origin nome_da_branch
+</code></pre></div><p>O que você está dizendo aqui é: git empurre nome_da_branch que está no meu repositório local para o meu repositório remoto (no GitHub). Essa é a sintaxe padrão: git + ação que você quer fazer + o lugar de destino + o objeto que você quer enviar.</p>
+<p><img src="images/git_push.gif" alt="git push"></p>
+<ol start="4">
+<li>Agora suas atualizações estão no seu repositório, mas você ainda precisa submetê-las para a autora do repositório original. Isso é feito na própria interface do GitHub, por meio do <em>pull request</em>. No post <a href="https://pascalina.l2n.me/posts/2020/08/como-contribuir-com-projetos-abertos/"><em>Como contribuir com projetos abertos</em></a> ensinamos como fazer isso. A diferença aqui é que ao invés de submeter um pedido de request da sua master para a master do projeto original, vamos submeter um pedido da sua branch para a master do repositório &ldquo;dono&rdquo; do projeto.</li>
+</ol>
+<p><img src="images/pullrequest.png" alt="Pull Request"></p>
+<ol start="5">
+<li>Não esqueça de enviar uma mensagem explicando suas contribuições para a proprietária do projeto. Se ela esiver satisfeita será feito um <em>merge</em> das suas constribuições na branch master do repositório original.</li>
+</ol>
+<p><img src="images/git_merge.gif" alt="git merge"></p>
+<p>Para terminar, vamos revisar algumas cositas más:</p>
+<ul>
+<li>
+<p>As branches servem para dinamizar e flexibilizar o fluxo de trabalho uma vez que a branch principal requer estabilidade e coerência. A estrutura de trabalho por meio de branches também permite que diferentes recursos sejam criados por múltiplos colaboradores ao mesmo tempo sem comprometer a master.</p>
+</li>
+<li>
+<p>Ao nomear uma branch, seja o mais descritiva possível para que outras colaboradoras acompanhem o que está sendo feito de forma rápida e prática.</p>
+</li>
+<li>
+<p>Para incorporar as branches na branch master, abra pull requests, sempre um para cada branch.</p>
+</li>
+<li>
+<p>O GitHub fornece guias <a href="https://try.github.io/">aqui</a> e tutoriais interativos sobre git <a href="https://learngitbranching.js.org">aqui</a>.</p>
+</li>
+<li>
+<p>Não se preocupe em memorizar todos os comandos utilizados no terminal. Quando tiver dúvidas, você pode pedir ajuda no próprio terminal utilizando a sintaxe: git + ação que deseja realizar + &ndash;help, por exemplo:</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git branch --help
+</code></pre></div>
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon">
+            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+            <line x1="7" y1="7" x2="7" y2="7"></line>
+          </svg><span class="tag"><a href="https://pascalina.l2n.me/tags/branches/">branches</a></span><span class="tag"><a href="https://pascalina.l2n.me/tags/github/">github</a></span><span class="tag"><a href="https://pascalina.l2n.me/tags/branching/">branching</a></span>
+        </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        819 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        2020-08-20 21:00 -0300
+      </p>
+    </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h"></span>
+          <hr />
+        </div>
+
+        <div class="pagination__buttons">
+          
+
+          
+            <span class="button next">
+              <a href="https://pascalina.l2n.me/posts/2020/08/criadora-do-scihub/">
+                <span class="button__text">Criadora do SciHub</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2022</span>
+            
+                <span><a href="https://pascalina.l2n.me">Pascalina</a></span>
+            
+            <span> <a href="https://pascalina.l2n.me/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+        
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://pascalina.l2n.me/bundle.min.a0f363fdf81cdc5cfacc447a79c33189eb000d090336cd04aac8ee256f423b3133b836c281944c19c75e38d0b0b449f01ce5807e37798b7ac94ac1db51983fc4.js" integrity="sha512-oPNj/fgc3Fz6zER6ecMxiesADQkDNs0EqsjuJW9COzEzuDbCgZRMGcdeONCwtEnwHOWAfjd5i3rJSsHbUZg/xA=="></script>
+
+
+
+    </body>
+</html>
